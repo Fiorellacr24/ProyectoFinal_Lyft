@@ -6,8 +6,10 @@ body{
 	width: 100%;
 }
 #navigation{
+	overflow: hidden;
 	background: red;
-	height: 80px;
+	top: 0;
+	/*position: fixed;*/
 }
 .nav-right{
 	float: right;
@@ -46,3 +48,31 @@ body{
 	display: none;
 	border-color: #ff00bf;
 }
+/* HEADER */
+.video-form{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.form-container{
+	position: absolute;
+	float: right;
+	width: 40%;
+	left: 60%;
+	margin-top: 8%;
+	background-color: white;
+	padding-bottom: 50px;
+}
+form h1, h3{
+	color: #352384;
+}
+.form-container .btn-form{
+	background-color: #ff00bf;
+	color: white;
+	border-radius: 10px;
+	border: 0;
+	padding: 15px;
+	display: inline-block;
+	width: 180px;	
+}
+
