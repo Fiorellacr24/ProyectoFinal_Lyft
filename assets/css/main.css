@@ -171,10 +171,10 @@ iframe{
 	position: relative;
 	background-color: #333447;
 }
-.col-1, .col-2, .col-3{
+.col-1, .col-2, .col-3, .col-4{
 	display: inline-block;
 	margin: 30px;
-	width: calc((100%-1%)/5);
+	width: calc(100%/6);
 }
 .footer ul{
 	list-style: none;
@@ -193,4 +193,8 @@ iframe{
 .footer li .title:hover{
 	color: white;
 	text-decoration: underline;
+}
+.col-4 img{
+	width: 50%;
+	margin-bottom: 20px;
 }
