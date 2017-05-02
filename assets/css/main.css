@@ -1,0 +1,48 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+#navigation{
+	background: red;
+	height: 80px;
+}
+.nav-right{
+	float: right;
+}
+.nav-right li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+.nav-right a{
+	text-decoration: none;
+	padding: 15px;
+}
+.logowhite{
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 15px;
+}
+.logopink{
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 15px;
+	display: none;
+}
+.btn{
+	background-color: rgba(112, 0, 255, 0);
+	border-radius: 13%;
+	width: 90px;
+	height: 40px;
+	border-color: #ccc;
+}
+#login{
+	border-color: #ff00bf;
+}
+#signup{
+	display: none;
+	border-color: #ff00bf;
+}
