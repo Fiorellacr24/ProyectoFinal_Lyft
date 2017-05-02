@@ -198,3 +198,12 @@ iframe{
 	width: 50%;
 	margin-bottom: 20px;
 }
+.social i{
+	display: inline-block;
+	color: white;
+	margin-left: 70px;
+	font-size: 40px;
+}
+.social{
+	text-align: center;
+}
