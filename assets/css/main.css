@@ -5,6 +5,9 @@ body{
 	margin: 0 auto;
 	width: 100%;
 }
+.display-n{
+	display: none;
+}
 /* NAV */
 #navigation{
 	overflow: hidden;
@@ -81,7 +84,8 @@ body{
 	display: inline-block;
 	width: 180px;
 	font-size: 1rem;
-	margin-left: 70px;	
+	margin-left: 70px;
+	cursor: pointer;	
 }
 .form-container a ,p{
 	color: #728099;
