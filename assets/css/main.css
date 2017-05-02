@@ -211,3 +211,12 @@ iframe{
 .social{
 	text-align: center;
 }
+.footer hr{
+	display: block;
+	width: 700px;
+}
+.footer span{
+	margin-left: 600px;
+	color: white;
+	margin-top: 50px;
+}
