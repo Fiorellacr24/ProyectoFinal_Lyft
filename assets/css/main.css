@@ -63,7 +63,8 @@ body{
 	background-color: white;
 	padding-bottom: 50px;
 }
-.form-container h1, h3{
+.form-container h1, 
+.form-container h3{
 	color: #352384;
 	margin-left: 70px;
 }
@@ -114,7 +115,7 @@ body{
 	display: inline-block;
 	/*height: 750px;*/
 	margin-left: 10%;
-	padding-top: 10%;
+	padding-top: 5%;
 	/*padding-bottom: 25%;*/
 	color: white;
 	float: left;
@@ -122,9 +123,6 @@ body{
 .txt-underform span{
 	color: white;
 	font-size: 1rem;
-}
-.txt-underform span:last-child{
-	padding-bottom: 20%;
 }
 .img-phone{
 	display: inline-block;
@@ -145,7 +143,9 @@ body{
 	width: 50%;
 	height: 315px;
 }
-.txt-video h5,h2,p{
+.txt-video h5,
+.txt-video h2, 
+.txt-video p{
 	margin-left: 100px;
 	margin-right: 100px;
 	color: black;
@@ -162,4 +162,35 @@ body{
 }
 iframe{
 	width: 100%;
+}
+/*FOOTER*/
+.footer{
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #333447;
+}
+.col-1, .col-2, .col-3{
+	display: inline-block;
+	margin: 30px;
+	width: calc((100%-1%)/5);
+}
+.footer ul{
+	list-style: none;
+}
+
+.footer li a{
+	text-decoration: none;
+	color: white;
+	line-height: 3;
+}
+
+.footer li a:hover{
+	color: #ff00bf;
+}
+
+.footer li .title:hover{
+	color: white;
+	text-decoration: underline;
 }
